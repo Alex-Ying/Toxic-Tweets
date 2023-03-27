@@ -5,7 +5,7 @@ Instructions followed for Docker installation: <br>
 > Followed Docker instructions for installation on Mac: [Install Docker Desktop for Mac](https://docs.docker.com/desktop/install/mac-install/) (Installed interactively)
 ![Docker Installation](Docker_Install_Instructions.png)
 > Ran the following command in terminal: <br>
-    $ softwareupdate --install-rosetta
+    `$ softwareupdate --install-rosetta`
 ---
 Docker Terminal: <br>
 ![Terminal](Docker_Terminal.png)
