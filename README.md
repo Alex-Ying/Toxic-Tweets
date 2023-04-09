@@ -1,6 +1,6 @@
 --
 title: Toxic Tweets Sentiment Analysis
-emoji: 📊
+emoji: :poop:
 colorFrom: pink
 colorTo: red
 sdk: streamlit
