@@ -1,3 +1,15 @@
+--
+title: Toxic Tweets Sentiment Analysis
+emoji: 📊
+colorFrom: pink
+colorTo: red
+sdk: streamlit
+sdk_version: 1.17.0
+app_file: app.py
+pinned: false
+--
+(Above is for Hugging Face space connection, please ignore)
+
 # CS-UY 4613 Project: Toxic Tweets
 
 Instructions followed for Docker installation: <br>
