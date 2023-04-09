@@ -9,6 +9,6 @@ tweet = form.text_input(label='Enter text to analyze:', value="\"We've seen in t
 submit = form.form_submit_button(label='Submit')
 
 if submit:
-    with st.spinner('Analyzing ur mom...'):
+    with st.spinner('Analyzing ur mom lol...'):
         time.sleep(5)
     st.header(tweet)
