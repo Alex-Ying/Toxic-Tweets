@@ -3,9 +3,9 @@ title: Toxic Tweets Sentiment Analysis
 emoji: 📊
 colorFrom: pink
 colorTo: red
-sdk: streamlit
-sdk_version: 1.19.0
+sdk_version: 1.17.0
 app_file: app.py
+pinned: false
 ---
 
 # CS-UY 4613 Project: Toxic Tweets
