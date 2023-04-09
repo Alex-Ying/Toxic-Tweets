@@ -1,4 +1,4 @@
---
+---
 title: Toxic Tweets Sentiment Analysis
 emoji: :poop:
 colorFrom: pink
@@ -7,8 +7,7 @@ sdk: streamlit
 sdk_version: 1.17.0
 app_file: app.py
 pinned: false
---
-(Above is for Hugging Face space connection, please ignore)
+---
 
 # CS-UY 4613 Project: Toxic Tweets
 
