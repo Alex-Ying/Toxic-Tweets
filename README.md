@@ -21,3 +21,4 @@ Instructions followed for Docker installation: <br>
 ---
 Docker Terminal: <br>
 ![Terminal](Docker_Terminal.png)
+
