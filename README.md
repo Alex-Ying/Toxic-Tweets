@@ -6,7 +6,6 @@ colorTo: red
 sdk: streamlit
 sdk_version: 1.19.0
 app_file: app.py
-pinned: false
 ---
 
 # CS-UY 4613 Project: Toxic Tweets
