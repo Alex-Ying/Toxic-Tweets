@@ -15,3 +15,7 @@ Docker Terminal: <br>
 ## Milestone 2: Sentiment Analysis App
 
 Hugging face link: https://huggingface.co/spaces/Ptato/Sentiment-Analysis
+
+## Milestone 3: Finetuned Toxicity Detection Model
+
+Hugging face link: https://huggingface.co/spaces/Ptato/Sentiment-Analysis (Same as MS2)
