@@ -18,5 +18,5 @@ Hugging face link: https://huggingface.co/spaces/Ptato/Sentiment-Analysis
 
 ## Milestone 3: Finetuned Toxicity Detection Model
 
-Hugging face link: https://huggingface.co/spaces/Ptato/Sentiment-Analysis (Same as MS2)
+Hugging face link: https://huggingface.co/spaces/Ptato/Sentiment-Analysis (Same as MS2) <br>
 Note: To run app.py, unzip `test.csv.zip` first.
