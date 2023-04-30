@@ -16,31 +16,31 @@ st.title("Sentiment Analysis App")
 
 # Set the variables that should not be changed between refreshes of the app.
 
-"""
-logs is a map that records the results of past sentiment analysis queries.
-    Type: dict() {"key" --> value[]}
-        key: model_name (string)    - The name of the model being used
-        value: log[] (list)         - The list of values that represent the model's results
-            --> For the pretrained labels, len(log) = 4
-                --> log[0] (int) - The prediction of the model on its input
-                    --> 0 = Positive
-                    --> 1 = Negative
-                    --> 2 = Neutral (if applicable)
-                --> log[1] (string) - The tweet/inputted string
-                --> log[2] (string) - The judgement of the tweet/input (Positive/Neutral/Negative)
-                --> log[3] (string) - The score of the prediction (includes '%' sign)
-            --> For the finetuned model, len(log) = 6
-                --> log[0] (int) - The prediction of the model on the toxicity of the input
-                    --> 0 = Nontoxic
-                    --> 1 = Toxic
-                --> log[1] (string) - The tweet/inputted string
-                --> log[2] (string) - The highest scoring overall category of toxicity out of:
-                    'toxic', 'severe_toxic', 'obscene', 'threat', 'insult', and 'identity_hate'
-                --> log[3] (string) - The score of log[2] (includes '%' sign)
-                --> log[4] (string) - The predicted type of toxicity, the highest scoring category of toxicity out of:
-                    'obscene', 'threat', 'insult', and 'identity_hate'
-                --> log[5] (string) - The score of log[4] (includes '%' sign)
-""" 
+
+# logs is a map that records the results of past sentiment analysis queries.
+#     Type: dict() {"key" --> value[]}
+#         key: model_name (string)    - The name of the model being used
+#         value: log[] (list)         - The list of values that represent the model's results
+#             --> For the pretrained labels, len(log) = 4
+#                 --> log[0] (int) - The prediction of the model on its input
+#                     --> 0 = Positive
+#                     --> 1 = Negative
+#                     --> 2 = Neutral (if applicable)
+#                 --> log[1] (string) - The tweet/inputted string
+#                 --> log[2] (string) - The judgement of the tweet/input (Positive/Neutral/Negative)
+#                 --> log[3] (string) - The score of the prediction (includes '%' sign)
+#             --> For the finetuned model, len(log) = 6
+#                 --> log[0] (int) - The prediction of the model on the toxicity of the input
+#                     --> 0 = Nontoxic
+#                     --> 1 = Toxic
+#                 --> log[1] (string) - The tweet/inputted string
+#                 --> log[2] (string) - The highest scoring overall category of toxicity out of:
+#                     'toxic', 'severe_toxic', 'obscene', 'threat', 'insult', and 'identity_hate'
+#                 --> log[3] (string) - The score of log[2] (includes '%' sign)
+#                 --> log[4] (string) - The predicted type of toxicity, the highest scoring category of toxicity out of:
+#                     'obscene', 'threat', 'insult', and 'identity_hate'
+#                 --> log[5] (string) - The score of log[4] (includes '%' sign)
+
 if 'logs' not in st.session_state:
     st.session_state.logs = dict()
     
