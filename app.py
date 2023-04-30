@@ -80,11 +80,11 @@ st.session_state.options = [
 # box is the dropdown box that users use to select their choice of model
 box = form.selectbox('Select Pre-trained Model:', st.session_state.options, key=1)
 
-"""
-tweet refers to the text box for users to input their tweets.
-Has a default value of "\"We've seen in the last few months, unprecedented amounts of Voter Fraud.\" @SenTedCruz True!"
-    (Tweeted by former president Donald Trump)
-"""
+
+# tweet refers to the text box for users to input their tweets.
+# Has a default value of "\"We've seen in the last few months, unprecedented amounts of Voter Fraud.\" @SenTedCruz True!"
+#     (Tweeted by former president Donald Trump)
+
 tweet = form.text_input(label='Enter text to analyze:', value="\"We've seen in the last few months, unprecedented amounts of Voter Fraud.\" @SenTedCruz True!")
 
 # Submit button
