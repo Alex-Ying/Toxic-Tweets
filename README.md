@@ -31,6 +31,15 @@ Check out ```app_demo.mp4``` for a quick demo on using the app!
 We need to load the data from the csv files into ```Dataset``` variables to use for training/validation/testing. This is accomplished here:<br> ![a](im1.png)
 
 #### 2. Preprocess the data
-The pretrained BERT model being used does not take raw input. Thus, we need to tokenize it with a tokenizer. Additionally, the labels <br>
-need to be reformatted for the model to accept it. This is done below: <br>
+The pretrained BERT model being used does not take raw input. Thus, we need to tokenize it with a tokenizer. Additionally, the labels need to be reformatted for the model to accept it. This is done below: <br>
 ![b](im2.png)
+
+#### 3. Setup the model
+We need to define ```TrainingArguments```, which are hyperparameters for training. Additionally, I compute the label metrics, which will give the performance of the model after each epoch we train. <br>
+![c](im3.png) <br>
+![d](im4.png)
+
+#### 4. Evaluation and download
+I ran ```trainer.evaluate()```, which evaluated the model's performance on the test set. However, I ran this on Colab and was unable to capture the original accuracy after running this command. Additionally, I downloaded the model off Colab onto my local system. <br>
+![e](im5.png)
+
