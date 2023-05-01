@@ -19,4 +19,12 @@ Hugging face link: https://huggingface.co/spaces/Ptato/Sentiment-Analysis
 ## Milestone 3: Finetuned Toxicity Detection Model
 
 Hugging face link: https://huggingface.co/spaces/Ptato/Sentiment-Analysis (Same as MS2) <br>
-Note: To run app.py, unzip `test.csv.zip` first.
+Note: To run app.py locally, unzip `test.csv.zip` first.
+
+## Milestone 4: Documentation + Demo
+The app is hosted on both [HuggingFace](https://huggingface.co/spaces/Ptato/Sentiment-Analysis) and a [Google Sites](https://sites.google.com/view/toxic-tweets/home). <br>
+Check out ```app_demo.mp4``` for a quick demo on using the app!
+
+### Training the Model
+
+#### 1. Loading the data
