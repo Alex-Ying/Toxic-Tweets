@@ -28,3 +28,9 @@ Check out ```app_demo.mp4``` for a quick demo on using the app!
 ### Training the Model
 
 #### 1. Loading the data
+We need to load the data from the csv files into ```Dataset``` variables to use for training/validation/testing. This is accomplished here:<br> ![a](im1.png)
+
+#### 2. Preprocess the data
+The pretrained BERT model being used does not take raw input. Thus, we need to tokenize it with a tokenizer. Additionally, the labels <br>
+need to be reformatted for the model to accept it. This is done below: <br>
+![b](im2.png)
